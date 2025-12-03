@@ -1,0 +1,36 @@
+{
+  "name": "codex-mcp-wrapper",
+  "version": "1.0.0",
+  "description": "MCP wrapper for Codex/GPT CLI with logging support for Claude Code",
+  "bin": {
+    "codex-mcp-wrapper": "./codex-mcp-wrapper.sh"
+  },
+  "keywords": [
+    "mcp",
+    "codex",
+    "openai",
+    "gpt",
+    "claude",
+    "claude-code",
+    "ai",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Herfstvalt/mcp-wrappers.git",
+    "directory": "codex-mcp-wrapper"
+  },
+  "bugs": {
+    "url": "https://github.com/Herfstvalt/mcp-wrappers/issues"
+  },
+  "homepage": "https://github.com/Herfstvalt/mcp-wrappers#readme",
+  "peerDependencies": {
+    "codex-mcp-server": "*"
+  },
+  "files": [
+    "codex-mcp-wrapper.sh",
+    "README.md"
+  ]
+}
